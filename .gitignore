@@ -1,4 +1,5 @@
 /.idea
 /.venv
+.ipynb_checkpoints
 Hybrid Search.ipynb
 Untitled.ipynb
