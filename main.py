@@ -38,6 +38,9 @@ from pinecone_text.sparse import BM25Encoder
 from tabulate import tabulate
 import tiktoken
 
+# Path to a file for OCR
+file_path = './files/Churchill_Beaches_Speech.pdf'
+
 # Global variables:
     # Wrapp and truncate width and length:
 MAX_WIDTH=45
@@ -83,7 +86,7 @@ def my_main():
     processor_id = '4dac41d96fc1712f'
     project_id = 'root-array-442413-f5'
     location = 'eu'
-    file_path = './files/Churchill_Beaches_Speech.pdf'
+
     mime_type, _ = mimetypes.guess_type(file_path)
 
     def process_document(
