@@ -1,8 +1,0 @@
-dotenv
-langchain-openai
-pandas
-pinecone-client
-pinecone-text
-tabulate
-tiktoken
-google-cloud-documentai
