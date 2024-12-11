@@ -2,6 +2,13 @@
 Main application for processing pdf documents with Google Document AI, generating hybrid embeddings,
 and storing them in Pinecone for RAG-based retrieval.
 File types accepted: PDF, GIF, TIFF, JPEG, PNG, BMP, WEBP.
+This project leverages free-tier accounts for Google Document AI, OpenAI, and Pinecone to create a powerful NLP workflow.
+
+OpenAI Usage Note:
+Depending on usage volume, OpenAI may require a small amount (e.g., $5) in your account to facilitate API calls.
+
+Model Recommendation:
+You can try using model="text-embedding-ada-002" in line 57 (embedding client). However, performance may vary with this approach under free-tier usage limits.
 
 Steps:
 1. Process documents using Google Cloud Document AI.

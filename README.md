@@ -2,6 +2,14 @@
  involves combining Retrieval-Augmented Generation (RAG) techniques with hybrid search methods to enhance document retrieval and contextual understanding.
 
 📄 Overview
+This project leverages free-tier accounts for Google Document AI, OpenAI, and Pinecone to create a powerful NLP workflow.
+
+🔹 OpenAI Usage Note:
+Depending on usage volume, OpenAI may require a small amount (e.g., $5) in your account to facilitate API calls.
+
+🔹 Model Recommendation:
+You can try using model="text-embedding-ada-002" in line 57 (embedding client). 
+However, performance may vary with this approach under free-tier usage limits.
 
 This project is a [Type/Description, e.g., Retrieval-Augmented Generation system] built for [specific purpose use case].
 It allows you to search, generate embeddings, manage free plan Pinecone index operations, and utilize vector search mechanisms in Python with integrated embeddings and models.
