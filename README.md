@@ -1,5 +1,6 @@
 # Implementing-RAG-with-Hybrid-Search-for-Efficient-Document-Retrieval
- involves combining Retrieval-Augmented Generation (RAG) techniques with hybrid search methods to enhance document retrieval and contextual understanding.
+ involves combining Retrieval-Augmented Generation (RAG) techniques with hybrid search methods on Google Clound Platform 
+ DocumentAI to enhance document retrieval and contextual understanding.
 
 📄 Overview
 This project leverages free-tier accounts for Google Document AI, OpenAI, and Pinecone to create a powerful NLP workflow.
